@@ -12,22 +12,18 @@
     h1 {
       color: #333;
     }
-    /* Style for the search container */
-    .gcse-search {
-      max-width: 800px;
+    /* Center the search box */
+    .gcse-searchbox-only {
+      max-width: 600px;
       margin: 20px auto;
-      padding: 10px;
-      background: #fff;
-      border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
-    /* Optional: style for search input and results */
   </style>
 </head>
 <body>
 <h1>Search My Site</h1>
-<div class="gcse-search"></div>
+<!-- Google Search Box -->
+<gcse:searchbox-only></gcse:searchbox-only>
+<!-- Load the Google CSE script with your CSE ID -->
 <script async src="https://cse.google.com/cse.js?cx=YOUR_CSE_ID"></script>
-<!-- Replace 'YOUR_CSE_ID' with your actual Google CSE ID -->
 </body>
 </html>
